@@ -33,7 +33,7 @@ body:
   - type: checkboxes
     id: webbb
     attributes:
-      label: -Webbb
+      label: •Webbb
       description: "e.g. research, using platforms, basic social media experience. Just choose one. "
       options:
         - label: none
@@ -56,7 +56,7 @@ body:
   - type: checkboxes
     id: soffftware
     attributes:
-      label: -soffftware
+      label: •soffftware
       description: "e.g. installing and using different programs, basic coding skills. Just choose one. "
       options:
         - label: none
