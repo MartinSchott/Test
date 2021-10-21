@@ -68,9 +68,9 @@ body:
         - label: advanced
           required: false
   - type: textarea
-    id: sofftware
+    id: software-id
     attributes:
-      label: 
+      label: software-label
       description: "please give some form of confirmation to show you have skills in that area. That can be a certificate (give issuer, course name, date, maybe extra info), some project or product you have done (something you've built, a podcast, an event, etc.), or some other evidence / confirmation in that skill area"
     validations:
       required: false 
