@@ -1,0 +1,226 @@
+name: New Profile
+description: Create a new profile (you can find tutorials in the wiki) 
+title: "Create Profile for ..."
+labels: [Profile]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out some informations about you! Great to have you as part of the LEAD network! Your data will be published on the LEAD page. Here you can find a tutorial to help you in filling out your information: [link](https://github.com/ASKnetCommunity/LEAD/wiki/Tutorial-%22New-Profile%22-(for-ASKnet-Peers)). If you already have a profile which you want to update, please use [this link](https://github.com/ASKnetCommunity/LEAD/issues/new?assignees=&labels=ChangeProfile&template=change-profile.yml&title=Change+Profile+for+...) to submit your changes. 
+                
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: "your full name"
+    validations:
+      required: true  
+  - type: textarea
+    id: profile-image
+    attributes:
+      label: Profile Image
+      description: You can upload an image for your profile by dragging & dropping into this textarea or clicking on the bottom of this textarea and select your image. 
+    validations:
+      required: true
+      
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: "In which country are you active?"
+      placeholder: "e.g. South Sudan"
+    validations:
+      required: true
+  - type: input
+    id: region
+    attributes:
+      label: Region
+      description: "In which region are you active? You can add several regions or cities by separating them with commas."
+      placeholder: "e.g. Juba, Rhino-Camp, Berlin"
+    validations:
+      required: true
+  - type: input
+    id: hub
+    attributes:
+      label: Hub
+      description: "If you are active in a hub, you can indicate here in which"
+      placeholder: "Hub Name"
+    validations:
+      required: false
+      
+  - type: markdown
+    attributes:
+      value: |
+        ## Contact 
+        
+        How and where do you want to be contacted? Fill in your contact details, and leave the fields blank that you don't use. We'd kindly ask to give at least one contact option. 
+
+  - type: input
+    id: email
+    attributes:
+      label: E-Mail
+      description: "your E-Mail address"
+    validations:
+      required: false
+  - type: input
+    id: tel
+    attributes:
+      label: Phone
+      description: "your phone number"
+      placeholder: "e.g. +254 12 345 6789"
+    validations:
+      required: false
+  - type: input
+    id: whatsapp
+    attributes:
+      label: WhatsApp
+      description: "your whatsapp phone number"
+      placeholder: "e.g. +254 12 345 6789"
+    validations:
+      required: false
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: "your homepage"
+      placeholder: "https://www.yourwebsite.com"
+    validations:
+      required: false
+  - type: input
+    id: telegram
+    attributes:
+      label: Telegram
+      description: "your telegram username"
+    validations:
+      required: false
+  - type: input
+    id: github
+    attributes:
+      label: GitHub
+      description: "your github username"
+    validations:
+      required: false
+  - type: input
+    id: twitter
+    attributes:
+      label: Twitter
+      description: "your twitter username"
+    validations:
+      required: false
+  - type: input
+    id: facebook
+    attributes:
+      label: Facebook
+      description: "your facebook username"
+    validations:
+      required: false
+  - type: input
+    id: instagram
+    attributes:
+      label: Instagram
+      description: "your instagram username"
+    validations:
+      required: false
+  - type: input
+    id: mastodon
+    attributes:
+      label: Mastodon
+      description: "your mastodon profile link"
+    validations:
+      required: false
+  - type: input
+    id: wikifab
+    attributes:
+      label: WikiFab
+      description: "your wikifab username"
+    validations:
+      required: false
+
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Skills 
+        What are your skills? You can specify other skills in your description text. Please provide an estimation of your skill level on a scale from 0 to 100. As a guideline: 25 = some experience, 50 = I can be a trainer / mentor in that field, 100 = I am an absolute professional. Leave the field empty (or write 0) if you don't want to mention that specific skill on your profile. 
+
+  - type: input
+    id: web
+    attributes:
+      label: Web
+      description: "e.g. research, using platforms, basic social media experience"
+      placeholder: "0-100"      
+    validations:
+      required: false
+  - type: input
+    id: software
+    attributes:
+      label: Software
+      description: "e.g. installing and using different programs, basic coding skills"
+      placeholder: "0-100"
+    validations:
+      required: false 
+  - type: input
+    id: hardware
+    attributes:
+      label: Hardware
+      description: "experience with electronic and/or mechanical devices and hardware"
+      placeholder: "0-100"
+    validations:
+      required: false 
+  - type: input
+    id: community
+    attributes:
+      label: Community
+      description: "e.g. community building, connecting people, activism, trauma healing, gender equality awareness"
+      placeholder: "0-100"
+    validations:
+      required: false 
+  - type: input
+    id: orgdev
+    attributes:
+      label: Organizational Development
+      description: "e.g. entrepreneurship, project management, leading associations, financial literacy etc."
+      placeholder: "0-100"
+    validations:
+      required: false 
+  - type: input
+    id: media-art
+    attributes:
+      label: Media & Art
+      description: "e.g. audio/video/graphics skills, poetry, music"
+      placeholder: "0-100"
+    validations:
+      required: false 
+  - type: input
+    id: datasec
+    attributes:
+      label: Data Security
+      description: "e.g. privacy, encryption, protection of personal data"
+      placeholder: "0-100"
+    validations:
+      required: false 
+  - type: input
+    id: opensource
+    attributes:
+      label: Open Source
+      description: "e.g. git, open source philosophy, open source licenses"
+      placeholder: "0-100"
+    validations:
+      required: false 
+  - type: input
+    id: repair
+    attributes:
+      label: Repair
+      description: "e.g. managing repair cafes, skills on how to fix bikes, electronics et.c"
+      placeholder: "0-100"
+    validations:
+      required: false 
+
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Tell others about yourself, your story, your expertise in some short words or several paragraphs.
+    validations:
+      required: true
