@@ -55,11 +55,11 @@ body:
       options:
         - label: none (web)
           required: false
-        - label: beginner (web)
+        - label: learning (web)
           required: false
-        - label: intermediary (web)
+        - label: can assist trainer (web)
           required: false
-        - label: advanced (web)
+        - label: can lead a training (web)
           required: false
   - type: input
     id: web-id
@@ -78,11 +78,11 @@ body:
       options:
         - label: none (software)
           required: false
-        - label: beginner (software)
+        - label: learning (software)
           required: false
-        - label: intermediary (software)
+        - label: can assist trainer (software)
           required: false
-        - label: advanced (software)
+        - label: can lead a training (software)
           required: false
   - type: textarea
     id: software-id
