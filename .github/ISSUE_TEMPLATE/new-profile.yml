@@ -22,7 +22,24 @@ body:
       description: You can upload an image for your profile by dragging & dropping into this textarea or clicking on the bottom of this textarea and select your image. 
     validations:
       required: true
-     
+
+
+  - type: input
+    id: tel
+    attributes:
+      label: Phone
+      description: "Your phone number. **Important: If you input your phone number, it will be visible on your LEAD profile and therefore for everyone on the internet! Just enter your number if you are okay with that,** otherwise leave the field empty."
+      placeholder: "e.g. +254 12 345 6789"
+    validations:
+      required: false
+  - type: input
+    id: whatsapp
+    attributes:
+      label: WhatsApp
+      description: "your whatsapp phone number"
+      placeholder: "e.g. +254 12 345 6789"
+    validations:
+      required: false
 
   - type: markdown
     attributes:
