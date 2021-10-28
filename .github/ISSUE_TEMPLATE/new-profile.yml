@@ -48,18 +48,18 @@ body:
         What are your skills? You can specify other skills in your description text. Please provide an estimation of your skill level on a scale from 0 to 100. As a guideline: 25 = some experience, 50 = I can be a trainer / mentor in that field, 100 = I am an absolute professional. Leave the field empty (or write 0) if you don't want to mention that specific skill on your profile. 
 
   - type: checkboxes
-    id: webbb
+    id: web
     attributes:
-      label: • Webbb
+      label: • Web
       description: "e.g. research, using platforms, basic social media experience. Just choose one. "
       options:
-        - label: none
+        - label: none (web)
           required: false
-        - label: beginner
+        - label: beginner (web)
           required: false
-        - label: intermediary
+        - label: intermediary (web)
           required: false
-        - label: advanced
+        - label: advanced (web)
           required: false
   - type: input
     id: web-id
@@ -71,18 +71,18 @@ body:
       required: false
 
   - type: checkboxes
-    id: soffftware
+    id: software
     attributes:
-      label: • soffftware
+      label: • software
       description: "e.g. installing and using different programs, basic coding skills. Just choose one. "
       options:
-        - label: none
+        - label: none (software)
           required: false
-        - label: beginner
+        - label: beginner (software)
           required: false
-        - label: intermediary
+        - label: intermediary (software)
           required: false
-        - label: advanced
+        - label: advanced (software)
           required: false
   - type: textarea
     id: software-id
