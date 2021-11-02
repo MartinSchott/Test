@@ -65,7 +65,7 @@ body:
   - type: textarea
     id: trainer
     attributes:
-      label: I can lead a training in the following of the above mentioned areas: 
+      label: "I can lead a training in the following of the above mentioned areas: "
       description: 
     validations:
       required: true
