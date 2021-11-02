@@ -41,17 +41,12 @@ body:
     validations:
       required: false
 
-  - type: markdown
-    attributes:
-      value: |
-        ## Skills 
-        In which areas are you experienced? (for example by working in that area for a while)
         
   - type: checkboxes
     id: Skills
     attributes:
       label: Skills
-      description: 
+      description: In which areas are you experienced? (for example by learning and/or working in that area for a while)
       options:
         - label: Web
           required: false
@@ -73,8 +68,8 @@ body:
   - type: textarea
     id: proof
     attributes:
-      label: proof
-      description: 
+      label: Work examples / evidence
+      description: "Please provide a work example for each skill you have. That can be a product like a podcast, something you've built, or a training you have given. It can also be a certificate. You can post links or upload pictures and other files (----checkkk----)"
     validations:
       required: true
 
