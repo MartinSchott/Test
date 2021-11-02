@@ -45,7 +45,7 @@ body:
     attributes:
       value: |
         ## Skills 
-        In which areas are you experienced?
+        In which areas are you experienced? (for example by working in that area for a while)
         
   - type: checkboxes
     id: Skills
