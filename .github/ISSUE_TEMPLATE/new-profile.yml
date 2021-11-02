@@ -83,43 +83,6 @@ body:
         ## Skills 
         What are your skills? You can specify other skills in your description text. Please provide an estimation of your skill level on a scale from 0 to 100. As a guideline: 25 = some experience, 50 = I can be a trainer / mentor in that field, 100 = I am an absolute professional. Leave the field empty (or write 0) if you don't want to mention that specific skill on your profile. 
 
-  - type: checkboxes
-    id: web
-    attributes:
-      label: • Web
-      description: "e.g. research, using platforms, basic social media experience. Just choose one. "
-      options:
-        - label: none (web)
-          required: false
-        - label: learning (web)
-          required: false
-        - label: can assist trainer (web)
-          required: false
-        - label: can lead a training (web)
-          required: false
-  - type: input
-    id: web-id
-    attributes:
-      label:   web-label
-      description: "please give some form of confirmation to show you have skills in that area. That can be a certificate (give issuer, course name, date, maybe extra info), some project or product you have done (something you've built, a podcast, an event, etc.), or some other evidence / confirmation in that skill area"
-      placeholder: "infos / links / etc."      
-    validations:
-      required: false
-
-  - type: checkboxes
-    id: software
-    attributes:
-      label: • software
-      description: "e.g. installing and using different programs, basic coding skills. Just choose one. "
-      options:
-        - label: none (software)
-          required: false
-        - label: learning (software)
-          required: false
-        - label: can assist trainer (software)
-          required: false
-        - label: can lead a training (software)
-          required: false
   - type: textarea
     id: software-id
     attributes:
