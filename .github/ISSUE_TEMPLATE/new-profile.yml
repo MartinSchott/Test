@@ -63,13 +63,13 @@ body:
       label: "I can lead a training in the following of the above mentioned areas: "
       description: 
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: proof
     attributes:
       label: Work examples / evidence
-      description: "Please provide a work example for each skill you have. That can be a product like a podcast, something you've built, or a training you have given. It can also be a certificate. You can post links or upload pictures and other files (----checkkk----)"
+      description: "Please provide a work example for each skill you have. That can be a product like a podcast, something you've built, or a training you have given. It can also be a certificate. You can post links or upload pictures and other files."
     validations:
       required: true
 
