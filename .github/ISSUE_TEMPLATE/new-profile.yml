@@ -59,6 +59,8 @@ body:
           required: false
         - label: Hardware
           required: false
+        - label: (etc...)
+          required: false
 
   - type: textarea
     id: trainer
