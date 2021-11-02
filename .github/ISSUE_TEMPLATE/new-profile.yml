@@ -50,16 +50,14 @@ body:
   - type: checkboxes
     id: Skills
     attributes:
-      label: • Web
-      description: "e.g. research, using platforms, basic social media experience. Just choose one. "
+      label: Skills
+      description: 
       options:
         - label: Web
           required: false
         - label: Software
           required: false
         - label: Hardware
-          required: false
-        - label: (etc.....)
           required: false
 
   - type: textarea
