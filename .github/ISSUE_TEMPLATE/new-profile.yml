@@ -45,6 +45,44 @@ body:
     attributes:
       value: |
         ## Skills 
+        In which areas are you experienced?
+        
+  - type: checkboxes
+    id: Skills
+    attributes:
+      label: • Web
+      description: "e.g. research, using platforms, basic social media experience. Just choose one. "
+      options:
+        - label: Web
+          required: false
+        - label: Software
+          required: false
+        - label: Hardware
+          required: false
+        - label: (etc.....)
+          required: false
+
+  - type: textarea
+    id: trainer
+    attributes:
+      label: I can lead a training in the following of the above mentioned areas: 
+      description: 
+    validations:
+      required: true
+
+  - type: textarea
+    id: proof
+    attributes:
+      label: proof
+      description: 
+    validations:
+      required: true
+
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Skills 
         What are your skills? You can specify other skills in your description text. Please provide an estimation of your skill level on a scale from 0 to 100. As a guideline: 25 = some experience, 50 = I can be a trainer / mentor in that field, 100 = I am an absolute professional. Leave the field empty (or write 0) if you don't want to mention that specific skill on your profile. 
 
   - type: checkboxes
