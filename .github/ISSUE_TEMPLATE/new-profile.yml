@@ -48,9 +48,9 @@ body:
       label: Skills
       description: In which areas are you experienced? (for example by learning and/or working in that area for a while)
       options:
-        - label: "**Web** <br> e.g. research, using platforms, basic social media experience"
+        - label: "**Web** --  e.g. research, using platforms, basic social media experience"
           required: false
-        - label: Software
+        - label: "**Software** -- e.g. installing and using different programs, basic coding skills" 
           required: false
         - label: Hardware
           required: false
