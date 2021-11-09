@@ -49,7 +49,7 @@ body:
       required: false
       
   - type: input
-    id: mission
+    id: vision
     attributes:
       label: Vision Statement
       description: "If your Hub has a vision statement, you can enter it here."
