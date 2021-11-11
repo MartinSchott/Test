@@ -177,7 +177,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: "."
+      label: "-"
       description: Tell others about yourself, your story, your expertise in some short words or several paragraphs.
     validations:
       required: true
