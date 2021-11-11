@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to fill out some informations about you! Great to have you as part of the LEAD network! Your data will be published on the LEAD page. Here you can find a tutorial to help you in filling out your information: [link](https://github.com/ASKnetCommunity/LEAD/wiki/Tutorial-%22New-Profile%22-(for-ASKnet-Peers)). If you already have a profile which you want to update, please use [this link](https://github.com/ASKnetCommunity/LEAD/issues/new?assignees=&labels=ChangeProfile&template=change-profile.yml&title=Change+Profile+for+...) to submit your changes. 
+        Thank you for taking the time to fill out some informations about you! Great to have you as part of the #ASK network! Your data will be published on the LEAD page. Here you can find a tutorial to help you in filling out your information: [link](https://github.com/ASKnetCommunity/LEAD/wiki/Tutorial-%22New-Profile%22-(for-ASKnet-Peers)). If you already have a profile which you want to update, please just fill in the info that you want to change/add, and leave everything empty that should stay the same. 
                 
   - type: input
     id: name
@@ -15,6 +15,7 @@ body:
       description: "your full name"
     validations:
       required: true  
+
   - type: textarea
     id: profile-image
     attributes:
@@ -23,142 +24,238 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: "In which country are you active?"
+      placeholder: "e.g. South Sudan"
+    validations:
+      required: false
+      
+  - type: input
+    id: region
+    attributes:
+      label: Region
+      description: "In which region are you active? You can add several regions or cities by separating them with commas."
+      placeholder: "e.g. Juba, Rhino-Camp, Berlin"
+    validations:
+      required: false
 
+  - type: input
+    id: hub
+    attributes:
+      label: Hub
+      description: "If you are active in a hub, you can indicate here in which"
+      placeholder: "Hub Name"
+    validations:
+      required: false
+
+  - type: input
+    id: languages
+    attributes:
+      label: Languages
+      description: "Please state which languages you speak (and at what level)"
+      placeholder: "e.g. English (very good)"
+    validations:
+      required: false
+
+################# Skills #################
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Skills 
+        What are your skills? Please just fill out the fields that apply to you, you can skip the rest and leave it empty. 
+        For each skill that you have please enter some qualifications, so others can verify what experience you have. That can be: 
+        • a degree or a certificate (you don't need to upload it, just type the information)
+        • information about a prototype / product you've created (can be a podcast or a video, or a device you've built, or something else, depending on the skill). Feel free to include links. 
+        • information about a workshop / training you've conducted
+        • a recommendation of an ASKnet member or a former employer
+        • any other website where you and your skill is mentioned. 
+
+        Here is a list of skills that you might want to include: 
+        • **Web** --  e.g. research, using platforms, basic social media experience
+        • **Software** -- e.g. installing and using different programs, basic coding skills
+        • **Hardware** -- e.g. experience with electronic and/or mechanical devices and hardware
+        • **Community** -- e.g. community building, connecting people, activism, trauma healing, gender equality awareness
+        • **Organizational Development** -- e.g. entrepreneurship, project management, leading associations, financial literacy etc.
+        • **Media & Art** -- e.g. audio/video/graphics skills, poetry, music
+        • **Data Security** -- e.g. privacy, encryption, protection of personal data
+        • **Open Source** -- e.g. git, open source philosophy, open source licenses
+        • **Repair** -- e.g. managing repair cafes, skills on how to fix bikes, electronics etc.
+        
+  - type: input
+    id: skill1t
+    attributes:
+      label: Skill
+      placeholder: "Which skill?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: skill1
+    attributes:
+      label: Qualifications
+    validations:
+      required: false
+
+  - type: input
+    id: skill2t
+    attributes:
+      label: Skill
+      placeholder: "Which skill?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: skill2
+    attributes:
+      label: Qualifications
+      placeholder: leave empty if this doesn't apply to you      
+    validations:
+      required: false
+
+  - type: input
+    id: skill3t
+    attributes:
+      label: Skill
+      placeholder: "Which skill?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: skill3
+    attributes:
+      label: Qualifications
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: input
+    id: skill4t
+    attributes:
+      label: Skill
+      placeholder: "Which skill?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: skill4
+    attributes:
+      label: Qualifications
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Profile Text 
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "describe yourself"
+      description: Tell others about yourself, your story, your expertise in some short words or several paragraphs.
+    validations:
+      required: true
+
+################## Contact ###################
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Contact 
+        
+        How and where do you want to be contacted? Fill in your contact details, and leave the fields blank that you don't use. 
+        **Please be aware that this information will be publicly visible on the internet! Just fill in those fields that you are okay with to be public.**
+        We'd kindly ask to give at least one contact option. 
+
+  - type: input
+    id: email
+    attributes:
+      label: E-Mail
+      placeholder: "your E-Mail address"
+    validations:
+      required: false
   - type: input
     id: tel
     attributes:
       label: Phone
-      description: "Your phone number. <br> **Important: If you input your phone number, it will be visible on your LEAD profile and therefore for everyone on the internet! Just enter your number if you are okay with that,** otherwise leave the field empty."
-      placeholder: "e.g. +254 12 345 6789"
+      description: "**Important: If you input your phone number, it will be visible on your LEAD profile and therefore for everyone on the internet! Just enter your number if you are okay with that,** otherwise leave the field empty."
+      placeholder: "your phone number, e.g. +254 12 345 6789"
     validations:
       required: false
   - type: input
     id: whatsapp
     attributes:
       label: WhatsApp
-      description: "Your whatsapp phone number. <br> **Important: If you input your phone number, it will be visible on your LEAD profile and therefore for everyone on the internet! Just enter your number if you are okay with that,** otherwise leave the field empty."
-      placeholder: "e.g. +254 12 345 6789"
+      description: "**Important: If you input your phone number, it will be visible on your LEAD profile and therefore for everyone on the internet! Just enter your number if you are okay with that,** otherwise leave the field empty."
+      placeholder: "your whatsapp phone number, e.g. +254 12 345 6789"
     validations:
       required: false
-
-        
-  - type: checkboxes
-    id: Skills
+  - type: input
+    id: website
     attributes:
-      label: Skills
-      description: In which areas are you experienced? (for example by learning and/or working in that area for a while)
-      options:
-        - label: "**Web** --  e.g. research, using platforms, basic social media experience"
-          required: false
-        - label: "**Software** -- e.g. installing and using different programs, basic coding skills" 
-          required: false
-        - label: "**Hardware** -- e.g. experience with electronic and/or mechanical devices and hardware"
-          required: false
-        - label: "**Community** -- e.g. community building, connecting people, activism, trauma healing, gender equality awareness"
-          required: false
-        - label: "**Organizational Development** -- e.g. entrepreneurship, project management, leading associations, financial literacy etc."
-          required: false
-        - label: "**Media & Art** -- e.g. audio/video/graphics skills, poetry, music"
-          required: false
-        - label: "**Data Security** -- e.g. privacy, encryption, protection of personal data"
-          required: false
-        - label: "**Open Source** -- e.g. git, open source philosophy, open source licenses"
-          required: false
-        - label: "**Repair** -- e.g. managing repair cafes, skills on how to fix bikes, electronics etc."
-          required: false
-
-  - type: textarea
-    id: trainer
-    attributes:
-      label: "I can lead a training in the following of the above mentioned areas: "
-      description: 
+      label: Website
+      placeholder: "your homepage, e.g. https://www.yourwebsite.com"
     validations:
       required: false
-
-  - type: textarea
-    id: proof
-    attributes:
-      label: Work examples / evidence
-      description: "Please provide a work example for each skill you have. That can be a product like a podcast, something you've built, or a training you have given. It can also be a certificate. You can post links or upload pictures and other files."
-    validations:
-      required: true
-
-
-  - type: markdown
-    attributes:
-      value: |
-        ## Skills 
-        What are your skills? You can specify other skills in your description text. Please provide an estimation of your skill level on a scale from 0 to 100. As a guideline: 25 = some experience, 50 = I can be a trainer / mentor in that field, 100 = I am an absolute professional. Leave the field empty (or write 0) if you don't want to mention that specific skill on your profile. 
-
-  - type: textarea
-    id: software-id
-    attributes:
-      label:   software-label
-      description: "please give some form of confirmation to show you have skills in that area. That can be a certificate (give issuer, course name, date, maybe extra info), some project or product you have done (something you've built, a podcast, an event, etc.), or some other evidence / confirmation in that skill area"
-    validations:
-      required: false 
   - type: input
-    id: hardware-id
+    id: telegram
     attributes:
-      label: Hardware-label
-      description: "experience with electronic and/or mechanical devices and hardware"
-      placeholder: "infos / links / etc."      
+      label: Telegram
+      placeholder: "your telegram username"
     validations:
-      required: false 
+      required: false
   - type: input
-    id: community
+    id: github
     attributes:
-      label: Community
-      description: "e.g. community building, connecting people, activism, trauma healing, gender equality awareness"
-      placeholder: "0-100"
+      label: GitHub
+      placeholder: "your github username"
     validations:
-      required: false 
+      required: false
   - type: input
-    id: orgdev
+    id: liknedin
     attributes:
-      label: Organizational Development
-      description: "e.g. entrepreneurship, project management, leading associations, financial literacy etc."
-      placeholder: "0-100"
+      label: LinkedIn
+      placeholder: "URL to your LinkedIn Profile"
     validations:
-      required: false 
+      required: false
   - type: input
-    id: media-art
+    id: twitter
     attributes:
-      label: Media & Art
-      description: "e.g. audio/video/graphics skills, poetry, music"
-      placeholder: "0-100"
+      label: Twitter
+      placeholder: "your twitter username"
     validations:
-      required: false 
+      required: false
   - type: input
-    id: datasec
+    id: facebook
     attributes:
-      label: Data Security
-      description: "e.g. privacy, encryption, protection of personal data"
-      placeholder: "0-100"
+      label: Facebook
+      placeholder: "your facebook username"
     validations:
-      required: false 
+      required: false
   - type: input
-    id: opensource
+    id: instagram
     attributes:
-      label: Open Source
-      description: "e.g. git, open source philosophy, open source licenses"
-      placeholder: "0-100"
+      label: Instagram
+      placeholder: "your instagram username"
     validations:
-      required: false 
+      required: false
   - type: input
-    id: repair
+    id: mastodon
     attributes:
-      label: Repair
-      description: "e.g. managing repair cafes, skills on how to fix bikes, electronics et.c"
-      placeholder: "0-100"
+      label: Mastodon
+      placeholder: "your mastodon profile link"
     validations:
-      required: false 
-
-
-  - type: textarea
-    id: description
+      required: false
+  - type: input
+    id: wikifab
     attributes:
-      label: Description
-      description: Tell others about yourself, your story, your expertise in some short words or several paragraphs.
+      label: WikiFab
+      placeholder: "your wikifab username"
     validations:
-      required: true
+      required: false
