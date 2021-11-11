@@ -66,22 +66,26 @@ body:
     attributes:
       value: |
         ## Skills 
-        What are your skills? Please just fill out the fields that apply to you, you can leave the rest empty. 
+        What are your skills? Please just fill out the fields that apply to you, you can skip the rest and leave it empty. 
         For each skill that you have please enter some evidence, so others can verify what experience you have. That can be: 
         • a degree or a certificate (you don't need to upload it, just type the information)
-        • information about a prototype / product you've created (can be a podcast or a video, or a device you've built, depending on the skill). Feel free to include links. 
+        • information about a prototype / product you've created (can be a podcast or a video, or a device you've built, or something else, depending on the skill). Feel free to include links. 
         • information about a workshop / training you've conducted
         • a recommendation of an ASKnet member or a former employer
         • any other website where you and your skill is mentioned. 
 
-        Down below you find an open field where you can mention other skills you have, if they are not listed. 
+        Down below you find an open field where you can mention other skills you have, if they are not listed here. 
         
-  - type: checkboxes
-    id: Skills
+  - type: textarea
+    id: Web
     attributes:
-      label: Skills
-      description: In which areas are you experienced? (for example by learning and/or working in that area for a while)
-      options:
+      label: Web
+      description: e.g. research, using platforms, basic social media experience
+      placeholder: TESTESTEST
+    validations:
+      required: false
+
+
         - label: "**Web** --  e.g. research, using platforms, basic social media experience"
           required: false
         - label: "**Software** -- e.g. installing and using different programs, basic coding skills" 
