@@ -113,7 +113,7 @@ body:
       required: false
 
   - type: textarea
-    id: Organizational Development
+    id: Organizational_Development
     attributes:
       label: Organizational Development
       description: e.g. entrepreneurship, project management, leading associations, financial literacy etc.
@@ -122,7 +122,7 @@ body:
       required: false
 
   - type: textarea
-    id: Media - Art
+    id: Media-Art
     attributes:
       label: Media & Art
       description: e.g. audio/video/graphics skills, poetry, music
@@ -131,7 +131,7 @@ body:
       required: false
 
   - type: textarea
-    id: Data Security
+    id: Data_Security
     attributes:
       label: Data Security
       description: e.g. privacy, encryption, protection of personal data
@@ -140,7 +140,7 @@ body:
       required: false
 
   - type: textarea
-    id: Open Source
+    id: Open_Source
     attributes:
       label: Open Source
       description: e.g. git, open source philosophy, open source licenses
