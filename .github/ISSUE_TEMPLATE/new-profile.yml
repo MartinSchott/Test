@@ -122,7 +122,7 @@ body:
       required: false
 
   - type: textarea
-    id: Media & Art
+    id: Media - Art
     attributes:
       label: Media & Art
       description: e.g. audio/video/graphics skills, poetry, music
