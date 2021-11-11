@@ -167,8 +167,6 @@ body:
       required: false
 
 
-
-
   - type: markdown
     attributes:
       value: |
@@ -177,7 +175,105 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: "-"
+      label: "describe yourself"
       description: Tell others about yourself, your story, your expertise in some short words or several paragraphs.
     validations:
       required: true
+
+################## Contact ###################
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Contact 
+        
+        How and where do you want to be contacted? Fill in your contact details, and leave the fields blank that you don't use. 
+        **Please be aware that this information will be publicly visible on the internet! Just fill in those fields that you are okay with to be public.**
+        We'd kindly ask to give at least one contact option. 
+
+  - type: input
+    id: email
+    attributes:
+      label: E-Mail
+      placeholder: "your E-Mail address"
+    validations:
+      required: false
+  - type: input
+    id: tel
+    attributes:
+      label: Phone
+      description: "**Important: If you input your phone number, it will be visible on your LEAD profile and therefore for everyone on the internet! Just enter your number if you are okay with that,** otherwise leave the field empty."
+      placeholder: "your phone number, e.g. +254 12 345 6789"
+    validations:
+      required: false
+  - type: input
+    id: whatsapp
+    attributes:
+      label: WhatsApp
+      description: "**Important: If you input your phone number, it will be visible on your LEAD profile and therefore for everyone on the internet! Just enter your number if you are okay with that,** otherwise leave the field empty."
+      placeholder: "your whatsapp phone number, e.g. +254 12 345 6789"
+    validations:
+      required: false
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      placeholder: "your homepage, e.g. https://www.yourwebsite.com"
+    validations:
+      required: false
+  - type: input
+    id: telegram
+    attributes:
+      label: Telegram
+      placeholder: "your telegram username"
+    validations:
+      required: false
+  - type: input
+    id: github
+    attributes:
+      label: GitHub
+      placeholder: "your github username"
+    validations:
+      required: false
+  - type: input
+    id: liknedin
+    attributes:
+      label: LinkedIn
+      placeholder: "URL to your LinkedIn Profile"
+    validations:
+      required: false
+  - type: input
+    id: twitter
+    attributes:
+      label: Twitter
+      placeholder: "your twitter username"
+    validations:
+      required: false
+  - type: input
+    id: facebook
+    attributes:
+      label: Facebook
+      placeholder: "your facebook username"
+    validations:
+      required: false
+  - type: input
+    id: instagram
+    attributes:
+      label: Instagram
+      placeholder: "your instagram username"
+    validations:
+      required: false
+  - type: input
+    id: mastodon
+    attributes:
+      label: Mastodon
+      placeholder: "your mastodon profile link"
+    validations:
+      required: false
+  - type: input
+    id: wikifab
+    attributes:
+      label: WikiFab
+      placeholder: "your wikifab username"
+    validations:
+      required: false
