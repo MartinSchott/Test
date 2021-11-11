@@ -103,19 +103,61 @@ body:
     validations:
       required: false
 
+  - type: textarea
+    id: Community
+    attributes:
+      label: Community
+      description: e.g. community building, connecting people, activism, trauma healing, gender equality awareness
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
 
-        # - label: "**Community** -- e.g. community building, connecting people, activism, trauma healing, gender equality awareness"
-        #   required: false
-        # - label: "**Organizational Development** -- e.g. entrepreneurship, project management, leading associations, financial literacy etc."
-        #   required: false
-        # - label: "**Media & Art** -- e.g. audio/video/graphics skills, poetry, music"
-        #   required: false
-        # - label: "**Data Security** -- e.g. privacy, encryption, protection of personal data"
-        #   required: false
-        # - label: "**Open Source** -- e.g. git, open source philosophy, open source licenses"
-        #   required: false
-        # - label: "**Repair** -- e.g. managing repair cafes, skills on how to fix bikes, electronics etc."
-        #   required: false
+  - type: textarea
+    id: Organizational Development
+    attributes:
+      label: Organizational Development
+      description: e.g. entrepreneurship, project management, leading associations, financial literacy etc.
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Media & Art
+    attributes:
+      label: Media & Art
+      description: e.g. audio/video/graphics skills, poetry, music
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Data Security
+    attributes:
+      label: Data Security
+      description: e.g. privacy, encryption, protection of personal data
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Open Source
+    attributes:
+      label: Open Source
+      description: e.g. git, open source philosophy, open source licenses
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Repair
+    attributes:
+      label: Repair
+      description: e.g. managing repair cafes, skills on how to fix bikes, electronics etc.
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+#blablabla
 
   - type: textarea
     id: trainer
