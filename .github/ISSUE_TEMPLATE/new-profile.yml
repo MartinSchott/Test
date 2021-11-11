@@ -157,94 +157,14 @@ body:
     validations:
       required: false
 
-#blablabla
-
   - type: textarea
-    id: trainer
+    id: Other_Skills
     attributes:
-      label: "I can lead a training in the following of the above mentioned areas: "
-      description: 
+      label: ... Any Other Skills
+      description: e.g. managing repair cafes, skills on how to fix bikes, electronics etc.
+      placeholder: leave empty if this doesn't apply to you
     validations:
       required: false
-
-  - type: textarea
-    id: proof
-    attributes:
-      label: Work examples / evidence
-      description: "Please provide a work example for each skill you have. That can be a product like a podcast, something you've built, or a training you have given. It can also be a certificate. You can post links or upload pictures and other files."
-    validations:
-      required: true
-
-
-  - type: markdown
-    attributes:
-      value: |
-        ## Skills 
-        What are your skills? You can specify other skills in your description text. Please provide an estimation of your skill level on a scale from 0 to 100. As a guideline: 25 = some experience, 50 = I can be a trainer / mentor in that field, 100 = I am an absolute professional. Leave the field empty (or write 0) if you don't want to mention that specific skill on your profile. 
-
-  - type: textarea
-    id: software-id
-    attributes:
-      label:   software-label
-      description: "please give some form of confirmation to show you have skills in that area. That can be a certificate (give issuer, course name, date, maybe extra info), some project or product you have done (something you've built, a podcast, an event, etc.), or some other evidence / confirmation in that skill area"
-    validations:
-      required: false 
-  - type: input
-    id: hardware-id
-    attributes:
-      label: Hardware-label
-      description: "experience with electronic and/or mechanical devices and hardware"
-      placeholder: "infos / links / etc."      
-    validations:
-      required: false 
-  - type: input
-    id: community
-    attributes:
-      label: Community
-      description: "e.g. community building, connecting people, activism, trauma healing, gender equality awareness"
-      placeholder: "0-100"
-    validations:
-      required: false 
-  - type: input
-    id: orgdev
-    attributes:
-      label: Organizational Development
-      description: "e.g. entrepreneurship, project management, leading associations, financial literacy etc."
-      placeholder: "0-100"
-    validations:
-      required: false 
-  - type: input
-    id: media-art
-    attributes:
-      label: Media & Art
-      description: "e.g. audio/video/graphics skills, poetry, music"
-      placeholder: "0-100"
-    validations:
-      required: false 
-  - type: input
-    id: datasec
-    attributes:
-      label: Data Security
-      description: "e.g. privacy, encryption, protection of personal data"
-      placeholder: "0-100"
-    validations:
-      required: false 
-  - type: input
-    id: opensource
-    attributes:
-      label: Open Source
-      description: "e.g. git, open source philosophy, open source licenses"
-      placeholder: "0-100"
-    validations:
-      required: false 
-  - type: input
-    id: repair
-    attributes:
-      label: Repair
-      description: "e.g. managing repair cafes, skills on how to fix bikes, electronics et.c"
-      placeholder: "0-100"
-    validations:
-      required: false 
 
 
   - type: textarea
