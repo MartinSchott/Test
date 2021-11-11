@@ -1,4 +1,4 @@
-name: New Profile
+name: New Profile (alternative version)
 description: Create a new profile (you can find tutorials in the wiki) 
 title: "Create Profile for ..."
 labels: [Profile]
@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to fill out some informations about you! Great to have you as part of the #ASK network! Your data will be published on the LEAD page. Here you can find a tutorial to help you in filling out your information: [link](https://github.com/ASKnetCommunity/LEAD/wiki/Tutorial-%22New-Profile%22-(for-ASKnet-Peers)). If you already have a profile which you want to update, please just fill in the info that you want to change/add, and leave everything empty that should stay the same. 
+        Thank you for taking the time to fill out some informations about you! Great to have you as part of the LEAD network! Your data will be published on the LEAD page. Here you can find a tutorial to help you in filling out your information: [link](https://github.com/ASKnetCommunity/LEAD/wiki/Tutorial-%22New-Profile%22-(for-ASKnet-Peers)). If you already have a profile which you want to update, please use [this link](https://github.com/ASKnetCommunity/LEAD/issues/new?assignees=&labels=ChangeProfile&template=change-profile.yml&title=Change+Profile+for+...) to submit your changes. 
                 
   - type: input
     id: name
@@ -15,7 +15,6 @@ body:
       description: "your full name"
     validations:
       required: true  
-
   - type: textarea
     id: profile-image
     attributes:
@@ -24,57 +23,24 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: country
-    attributes:
-      label: Country
-      description: "In which country are you active?"
-      placeholder: "e.g. South Sudan"
-    validations:
-      required: false
-      
-  - type: input
-    id: region
-    attributes:
-      label: Region
-      description: "In which region are you active? You can add several regions or cities by separating them with commas."
-      placeholder: "e.g. Juba, Rhino-Camp, Berlin"
-    validations:
-      required: false
 
   - type: input
-    id: hub
+    id: tel
     attributes:
-      label: Hub
-      description: "If you are active in a hub, you can indicate here in which"
-      placeholder: "Hub Name"
+      label: Phone
+      description: "Your phone number. <br> **Important: If you input your phone number, it will be visible on your LEAD profile and therefore for everyone on the internet! Just enter your number if you are okay with that,** otherwise leave the field empty."
+      placeholder: "e.g. +254 12 345 6789"
+    validations:
+      required: false
+  - type: input
+    id: whatsapp
+    attributes:
+      label: WhatsApp
+      description: "Your whatsapp phone number. <br> **Important: If you input your phone number, it will be visible on your LEAD profile and therefore for everyone on the internet! Just enter your number if you are okay with that,** otherwise leave the field empty."
+      placeholder: "e.g. +254 12 345 6789"
     validations:
       required: false
 
-  - type: input
-    id: languages
-    attributes:
-      label: Languages
-      description: "Please state which languages you speak (and at what level)"
-      placeholder: "e.g. English (very good)"
-    validations:
-      required: false
-
-################# Skills #################
-
-  - type: markdown
-    attributes:
-      value: |
-        ## Skills 
-        What are your skills? Please just fill out the fields that apply to you, you can leave the rest empty. 
-        For each skill that you have please enter some evidence, so others can verify what experience you have. That can be: 
-        • a degree or a certificate (you don't need to upload it, just type the information)
-        • information about a prototype / product you've created (can be a podcast or a video, or a device you've built, depending on the skill). Feel free to include links. 
-        • information about a workshop / training you've conducted
-        • a recommendation of an ASKnet member or a former employer
-        • any other website where you and your skill is mentioned. 
-
-        Down below you find an open field where you can mention other skills you have, if they are not listed. 
         
   - type: checkboxes
     id: Skills
