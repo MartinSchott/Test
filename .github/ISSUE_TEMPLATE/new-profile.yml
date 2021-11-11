@@ -81,17 +81,29 @@ body:
     attributes:
       label: Web
       description: e.g. research, using platforms, basic social media experience
-      placeholder: TESTESTEST
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Software
+    attributes:
+      label: Software
+      description: e.g. installing and using different programs, basic coding skills
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Hardware
+    attributes:
+      label: Hardware
+      description: e.g. experience with electronic and/or mechanical devices and hardware
+      placeholder: leave empty if this doesn't apply to you
     validations:
       required: false
 
 
-        # - label: "**Web** --  e.g. research, using platforms, basic social media experience"
-        #   required: false
-        # - label: "**Software** -- e.g. installing and using different programs, basic coding skills" 
-        #   required: false
-        # - label: "**Hardware** -- e.g. experience with electronic and/or mechanical devices and hardware"
-        #   required: false
         # - label: "**Community** -- e.g. community building, connecting people, activism, trauma healing, gender equality awareness"
         #   required: false
         # - label: "**Organizational Development** -- e.g. entrepreneurship, project management, leading associations, financial literacy etc."
