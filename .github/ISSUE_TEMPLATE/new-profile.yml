@@ -86,24 +86,24 @@ body:
       required: false
 
 
-        - label: "**Web** --  e.g. research, using platforms, basic social media experience"
-          required: false
-        - label: "**Software** -- e.g. installing and using different programs, basic coding skills" 
-          required: false
-        - label: "**Hardware** -- e.g. experience with electronic and/or mechanical devices and hardware"
-          required: false
-        - label: "**Community** -- e.g. community building, connecting people, activism, trauma healing, gender equality awareness"
-          required: false
-        - label: "**Organizational Development** -- e.g. entrepreneurship, project management, leading associations, financial literacy etc."
-          required: false
-        - label: "**Media & Art** -- e.g. audio/video/graphics skills, poetry, music"
-          required: false
-        - label: "**Data Security** -- e.g. privacy, encryption, protection of personal data"
-          required: false
-        - label: "**Open Source** -- e.g. git, open source philosophy, open source licenses"
-          required: false
-        - label: "**Repair** -- e.g. managing repair cafes, skills on how to fix bikes, electronics etc."
-          required: false
+        # - label: "**Web** --  e.g. research, using platforms, basic social media experience"
+        #   required: false
+        # - label: "**Software** -- e.g. installing and using different programs, basic coding skills" 
+        #   required: false
+        # - label: "**Hardware** -- e.g. experience with electronic and/or mechanical devices and hardware"
+        #   required: false
+        # - label: "**Community** -- e.g. community building, connecting people, activism, trauma healing, gender equality awareness"
+        #   required: false
+        # - label: "**Organizational Development** -- e.g. entrepreneurship, project management, leading associations, financial literacy etc."
+        #   required: false
+        # - label: "**Media & Art** -- e.g. audio/video/graphics skills, poetry, music"
+        #   required: false
+        # - label: "**Data Security** -- e.g. privacy, encryption, protection of personal data"
+        #   required: false
+        # - label: "**Open Source** -- e.g. git, open source philosophy, open source licenses"
+        #   required: false
+        # - label: "**Repair** -- e.g. managing repair cafes, skills on how to fix bikes, electronics etc."
+        #   required: false
 
   - type: textarea
     id: trainer
