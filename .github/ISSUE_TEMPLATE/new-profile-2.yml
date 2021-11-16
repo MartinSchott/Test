@@ -91,7 +91,7 @@ body:
   - type: textarea
     id: skill1
     attributes:
-      label: Qualifications
+      label: Qualifications for Skill 1
       description: |
         For each skill please enter some qualifications, so others can verify what experience you have. That can be: 
 
@@ -115,7 +115,7 @@ body:
   - type: textarea
     id: skill2
     attributes:
-      label: Qualifications
+      label: Qualifications for Skill 2
       placeholder: leave empty if this doesn't apply to you      
     validations:
       required: false
@@ -131,7 +131,7 @@ body:
   - type: textarea
     id: skill3
     attributes:
-      label: Qualifications
+      label: Qualifications for Skill 3
       placeholder: leave empty if this doesn't apply to you
     validations:
       required: false
@@ -147,7 +147,7 @@ body:
   - type: textarea
     id: skill4
     attributes:
-      label: Qualifications
+      label: Qualifications for Skill 4
       placeholder: leave empty if this doesn't apply to you
     validations:
       required: false
