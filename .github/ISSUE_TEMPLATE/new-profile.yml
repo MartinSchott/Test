@@ -68,102 +68,86 @@ body:
     attributes:
       value: |
         ## Skills 
-        What are your skills? Please just fill out the fields that apply to you, you can skip the rest and leave it empty. 
-        For each skill that you have please enter some qualifications, so others can verify what experience you have. That can be: 
-        • a degree or a certificate (you don't need to upload it, just type the information)
-        • information about a prototype / product you've created (can be a podcast or a video, or a device you've built, or something else, depending on the skill). Feel free to include links. 
-        • information about a workshop / training you've conducted
-        • a recommendation of an ASKnet member or a former employer
-        • any other website where you and your skill is mentioned. 
+        What are your skills? Please just fill out your four main skills (or less), skip the other fields / leave empty. 
 
-        Down below you find an open field where you can mention other skills you have, if they are not listed here. 
+        For each skill please enter some qualifications, so others can verify what experience you have. That can be: 
         
-  - type: textarea
-    id: Web
+        • a degree or a certificate (no need to upload, just type what it is)
+        • information about a prototype / product you've created (can be a podcast, a video, a device you've built, or some other work you did). You can include links to other websites. 
+        • information about a workshop / training you've conducted
+        • a recommendation of an #ASKnet member or a former employer
+        • any other website where you and your skill is mentioned
+
+        Here is a list of skills that you might want to include: 
+        • **Web** --  e.g. research, using platforms, basic social media experience
+        • **Software** -- e.g. installing and using different programs, basic coding skills
+        • **Hardware** -- e.g. experience with electronic and/or mechanical devices and hardware
+        • **Community** -- e.g. community building, connecting people, activism, trauma healing, gender equality awareness
+        • **Organizational Development** -- e.g. entrepreneurship, project management, leading associations, financial literacy etc.
+        • **Media & Art** -- e.g. audio/video/graphics skills, poetry, music
+        • **Data Security** -- e.g. privacy, encryption, protection of personal data
+        • **Open Source** -- e.g. git, open source philosophy, open source licenses
+        • **Repair** -- e.g. managing repair cafes, skills on how to fix bikes, electronics etc.
+        
+  - type: input
+    id: skill1t
     attributes:
-      label: Web
-      description: e.g. research, using platforms, basic social media experience
-      placeholder: leave empty if this doesn't apply to you
+      label: Skill
+      placeholder: "Which skill?"
     validations:
       required: false
 
   - type: textarea
-    id: Software
+    id: skill1
     attributes:
-      label: Software
-      description: e.g. installing and using different programs, basic coding skills
-      placeholder: leave empty if this doesn't apply to you
+      label: Qualifications
+    validations:
+      required: false
+
+  - type: input
+    id: skill2t
+    attributes:
+      label: Skill
+      placeholder: "Which skill?"
     validations:
       required: false
 
   - type: textarea
-    id: Hardware
+    id: skill2
     attributes:
-      label: Hardware
-      description: e.g. experience with electronic and/or mechanical devices and hardware
-      placeholder: leave empty if this doesn't apply to you
+      label: Qualifications
+      placeholder: leave empty if this doesn't apply to you      
+    validations:
+      required: false
+
+  - type: input
+    id: skill3t
+    attributes:
+      label: Skill
+      placeholder: "Which skill?"
     validations:
       required: false
 
   - type: textarea
-    id: Community
+    id: skill3
     attributes:
-      label: Community
-      description: e.g. community building, connecting people, activism, trauma healing, gender equality awareness
+      label: Qualifications
       placeholder: leave empty if this doesn't apply to you
     validations:
       required: false
 
-  - type: textarea
-    id: Organizational_Development
+  - type: input
+    id: skill4t
     attributes:
-      label: Organizational Development
-      description: e.g. entrepreneurship, project management, leading associations, financial literacy etc.
-      placeholder: leave empty if this doesn't apply to you
+      label: Skill
+      placeholder: "Which skill?"
     validations:
       required: false
 
   - type: textarea
-    id: Media-Art
+    id: skill4
     attributes:
-      label: Media & Art
-      description: e.g. audio/video/graphics skills, poetry, music
-      placeholder: leave empty if this doesn't apply to you
-    validations:
-      required: false
-
-  - type: textarea
-    id: Data_Security
-    attributes:
-      label: Data Security
-      description: e.g. privacy, encryption, protection of personal data
-      placeholder: leave empty if this doesn't apply to you
-    validations:
-      required: false
-
-  - type: textarea
-    id: Open_Source
-    attributes:
-      label: Open Source
-      description: e.g. git, open source philosophy, open source licenses
-      placeholder: leave empty if this doesn't apply to you
-    validations:
-      required: false
-
-  - type: textarea
-    id: Repair
-    attributes:
-      label: Repair
-      description: e.g. managing repair cafes, skills on how to fix bikes, electronics etc.
-      placeholder: leave empty if this doesn't apply to you
-    validations:
-      required: false
-
-  - type: textarea
-    id: Other_Skills
-    attributes:
-      label: ... Any Other Skills
-      description: e.g. managing repair cafes, skills on how to fix bikes, electronics etc.
+      label: Qualifications
       placeholder: leave empty if this doesn't apply to you
     validations:
       required: false

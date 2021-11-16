@@ -1,4 +1,4 @@
-name: New Profile (alternative version)
+name: "(New Profile old 2)"
 description: Create a new profile (you can find tutorials in the wiki) 
 title: "Create Profile for ..."
 labels: [Profile]
@@ -76,76 +76,94 @@ body:
         • a recommendation of an ASKnet member or a former employer
         • any other website where you and your skill is mentioned. 
 
-        Here is a list of skills that you might want to include: 
-        • **Web** --  e.g. research, using platforms, basic social media experience
-        • **Software** -- e.g. installing and using different programs, basic coding skills
-        • **Hardware** -- e.g. experience with electronic and/or mechanical devices and hardware
-        • **Community** -- e.g. community building, connecting people, activism, trauma healing, gender equality awareness
-        • **Organizational Development** -- e.g. entrepreneurship, project management, leading associations, financial literacy etc.
-        • **Media & Art** -- e.g. audio/video/graphics skills, poetry, music
-        • **Data Security** -- e.g. privacy, encryption, protection of personal data
-        • **Open Source** -- e.g. git, open source philosophy, open source licenses
-        • **Repair** -- e.g. managing repair cafes, skills on how to fix bikes, electronics etc.
+        Down below you find an open field where you can mention other skills you have, if they are not listed here. 
         
-  - type: input
-    id: skill1t
-    attributes:
-      label: Skill
-      placeholder: "Which skill?"
-    validations:
-      required: false
-
   - type: textarea
-    id: skill1
+    id: Web
     attributes:
-      label: Qualifications
-    validations:
-      required: false
-
-  - type: input
-    id: skill2t
-    attributes:
-      label: Skill
-      placeholder: "Which skill?"
-    validations:
-      required: false
-
-  - type: textarea
-    id: skill2
-    attributes:
-      label: Qualifications
-      placeholder: leave empty if this doesn't apply to you      
-    validations:
-      required: false
-
-  - type: input
-    id: skill3t
-    attributes:
-      label: Skill
-      placeholder: "Which skill?"
-    validations:
-      required: false
-
-  - type: textarea
-    id: skill3
-    attributes:
-      label: Qualifications
+      label: Web
+      description: e.g. research, using platforms, basic social media experience
       placeholder: leave empty if this doesn't apply to you
     validations:
       required: false
 
-  - type: input
-    id: skill4t
+  - type: textarea
+    id: Software
     attributes:
-      label: Skill
-      placeholder: "Which skill?"
+      label: Software
+      description: e.g. installing and using different programs, basic coding skills
+      placeholder: leave empty if this doesn't apply to you
     validations:
       required: false
 
   - type: textarea
-    id: skill4
+    id: Hardware
     attributes:
-      label: Qualifications
+      label: Hardware
+      description: e.g. experience with electronic and/or mechanical devices and hardware
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Community
+    attributes:
+      label: Community
+      description: e.g. community building, connecting people, activism, trauma healing, gender equality awareness
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Organizational_Development
+    attributes:
+      label: Organizational Development
+      description: e.g. entrepreneurship, project management, leading associations, financial literacy etc.
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Media-Art
+    attributes:
+      label: Media & Art
+      description: e.g. audio/video/graphics skills, poetry, music
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Data_Security
+    attributes:
+      label: Data Security
+      description: e.g. privacy, encryption, protection of personal data
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Open_Source
+    attributes:
+      label: Open Source
+      description: e.g. git, open source philosophy, open source licenses
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Repair
+    attributes:
+      label: Repair
+      description: e.g. managing repair cafes, skills on how to fix bikes, electronics etc.
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: textarea
+    id: Other_Skills
+    attributes:
+      label: ... Any Other Skills
+      description: e.g. managing repair cafes, skills on how to fix bikes, electronics etc.
       placeholder: leave empty if this doesn't apply to you
     validations:
       required: false
