@@ -162,7 +162,7 @@ body:
     id: description
     attributes:
       label: "describe yourself"
-      description: Tell others about yourself, your story, your expertise in some short words or several paragraphs.
+      description: Tell others about yourself, your story, your expertise in some short sentences or some paragraphs.
     validations:
       required: true
 
