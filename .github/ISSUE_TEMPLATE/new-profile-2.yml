@@ -108,7 +108,7 @@ body:
     id: skill2t
     attributes:
       label: Skill 2
-      placeholder: "Which skill?"
+      placeholder: "Which skill? Leave empty if doesn't apply. "
     validations:
       required: false
 
@@ -124,7 +124,7 @@ body:
     id: skill3t
     attributes:
       label: Skill 3
-      placeholder: "Which skill?"
+      placeholder: "Which skill? Leave empty if doesn't apply. "
     validations:
       required: false
 
@@ -140,7 +140,7 @@ body:
     id: skill4t
     attributes:
       label: Skill 4
-      placeholder: "Which skill?"
+      placeholder: "Which skill? Leave empty if doesn't apply. "
     validations:
       required: false
 
