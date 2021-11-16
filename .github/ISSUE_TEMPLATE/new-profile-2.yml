@@ -1,5 +1,5 @@
 name: New Profile 2
-description: Create a new profile (you can find tutorials in the wiki) 
+description: Create a new profile
 title: "Create Profile for ..."
 labels: [Profile]
 body:
@@ -7,8 +7,6 @@ body:
     attributes:
       value: |
         Thank you for taking the time to fill out some informations about you! Great to have you as part of the #ASK network! Your data will be published on the LEAD page. 
-        Here you can find a tutorial to help you in filling out your information: [link](https://github.com/ASKnetCommunity/LEAD/wiki/Tutorial-%22New-Profile%22-(for-ASKnet-Peers)). 
-        If you already have a profile which you want to update, please just fill in the info that you want to change/add, and leave everything empty that should stay the same. 
                 
   - type: input
     id: name
@@ -265,3 +263,10 @@ body:
       placeholder: "your wikifab username"
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ### You've made it! 
+
+        Submit your profile by pressing "Submit new issue" down below (you may need to scroll a bit further). 
