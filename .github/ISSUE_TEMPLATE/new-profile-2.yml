@@ -68,13 +68,8 @@ body:
         ## Skills 
         What are your skills? Please just fill out your four main skills (or less). You can mention more in your profile text below. 
         
-  - type: input
-    id: skill1t
-    attributes:
-      label: "Examples:"
-      placeholder: "Which skill?"
-      description: | 
-        - **Web**  e.g. research, using platforms, basic social media experience
+        Examples: 
+        - **Web**   e.g. research, using platforms, basic social media experience
         - **Software**  e.g. installing and using different programs, basic coding skills
         - **Hardware**  e.g. experience with electronic and/or mechanical devices and hardware
         - **Community**  e.g. community building, connecting people, activism, trauma healing, gender equality awareness
@@ -84,8 +79,12 @@ body:
         - **Open Source**  e.g. git, open source philosophy, open source licenses
         - **Repair**  e.g. managing repair cafes, skills on how to fix bikes, electronics etc.
 
-        ## Skill 1
-        
+  - type: input
+    id: skill1t
+    attributes:
+      label: Skill 1
+      placeholder: "Which skill?"
+      description: 
     validations:
       required: false
 
