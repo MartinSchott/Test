@@ -6,13 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to fill out some informations about you! Great to have you as part of the #ASK network! Your data will be published on the LEAD page. 
+        Thank you for taking the time to fill out some informations about you! Great to have you as part of the #ASK network! Your data will be published on the LEAD website. 
                 
   - type: input
     id: name
     attributes:
       label: Name
-      description: "your full name"
+      description: "Your full name."
     validations:
       required: true  
 
@@ -45,9 +45,9 @@ body:
   - type: input
     id: hub
     attributes:
-      label: Hub
-      description: "If you are active in a hub, you can indicate here in which"
-      placeholder: "Hub Name"
+      label: Organisation
+      description: "If you are active in an organisation/hub, you can indicate here in which."
+      placeholder: "Organisation/Hub Name"
     validations:
       required: false
 
@@ -173,10 +173,10 @@ body:
       value: |
         ## Contact 
         
-        How and where do you want to be contacted? Fill in your contact details, and leave the fields blank that you don't use. 
+        How and where do you want to be contacted? Fill in your contact details, and leave the fields that you don't use blank. We'd kindly ask to give at least one contact option. 
+        
         **Please be aware that this information will be publicly visible on the internet! Just fill in those fields that you are okay with to be public.**
-        We'd kindly ask to give at least one contact option. 
-
+        
   - type: input
     id: email
     attributes:
