@@ -1,0 +1,266 @@
+name: New Profile 2
+description: Create a new profile (you can find tutorials in the wiki) 
+title: "Create Profile for ..."
+labels: [Profile]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out some informations about you! Great to have you as part of the #ASK network! Your data will be published on the LEAD page. 
+        Here you can find a tutorial to help you in filling out your information: [link](https://github.com/ASKnetCommunity/LEAD/wiki/Tutorial-%22New-Profile%22-(for-ASKnet-Peers)). 
+        If you already have a profile which you want to update, please just fill in the info that you want to change/add, and leave everything empty that should stay the same. 
+                
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: "your full name"
+    validations:
+      required: true  
+
+  - type: textarea
+    id: profile-image
+    attributes:
+      label: Profile Image
+      description: You can upload an image for your profile by dragging & dropping into this textarea or clicking on the bottom of this textarea and select your image. 
+    validations:
+      required: true
+
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: "In which country are you active?"
+      placeholder: "e.g. South Sudan"
+    validations:
+      required: false
+      
+  - type: input
+    id: region
+    attributes:
+      label: Region
+      description: "In which region are you active? You can add several regions or cities by separating them with commas."
+      placeholder: "e.g. Juba, Rhino-Camp, Berlin"
+    validations:
+      required: false
+
+  - type: input
+    id: hub
+    attributes:
+      label: Hub
+      description: "If you are active in a hub, you can indicate here in which"
+      placeholder: "Hub Name"
+    validations:
+      required: false
+
+  - type: input
+    id: languages
+    attributes:
+      label: Languages
+      description: "Please state which languages you speak (and at what level)"
+      placeholder: "e.g. English (very good)"
+    validations:
+      required: false
+
+################# Skills #################
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Skills 
+        What are your skills? Please just fill out your four main skills (or less). You can mention more in your profile text below. 
+       
+  - type: input
+    id: skill1t
+    attributes:
+      label: Skill
+      placeholder: "Which skill?"
+      description: |
+        Examples: 
+        - **Web** --  e.g. research, using platforms, basic social media experience
+        - **Software** -- e.g. installing and using different programs, basic coding skills
+        - **Hardware** -- e.g. experience with electronic and/or mechanical devices and hardware
+        - **Community** -- e.g. community building, connecting people, activism, trauma healing, gender equality awareness
+        - **Organizational Development** -- e.g. entrepreneurship, project management, leading associations, financial literacy etc.
+        - **Media & Art** -- e.g. audio/video/graphics skills, poetry, music
+        - **Data Security** -- e.g. privacy, encryption, protection of personal data
+        - **Open Source** -- e.g. git, open source philosophy, open source licenses
+        - **Repair** -- e.g. managing repair cafes, skills on how to fix bikes, electronics etc.
+    validations:
+      required: false
+
+  - type: textarea
+    id: skill1
+    attributes:
+      label: Qualifications
+      description: |
+        For each skill please enter some qualifications, so others can verify what experience you have. That can be: 
+
+        - a **degree** or a **certificate** (no need to upload, just type what it is)
+        - information about a **prototype / product** you've created (can be a podcast, a video, a device you've built, or some other work you did). You can include links to other websites. 
+        - information about a **workshop / training** you've conducted
+        - a **recommendation** of an #ASKnet member or a former employer
+        - any **other website** where you and your skill is mentioned
+
+    validations:
+      required: false
+
+  - type: input
+    id: skill2t
+    attributes:
+      label: Skill
+      placeholder: "Which skill?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: skill2
+    attributes:
+      label: Qualifications
+      placeholder: leave empty if this doesn't apply to you      
+    validations:
+      required: false
+
+  - type: input
+    id: skill3t
+    attributes:
+      label: Skill
+      placeholder: "Which skill?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: skill3
+    attributes:
+      label: Qualifications
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+  - type: input
+    id: skill4t
+    attributes:
+      label: Skill
+      placeholder: "Which skill?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: skill4
+    attributes:
+      label: Qualifications
+      placeholder: leave empty if this doesn't apply to you
+    validations:
+      required: false
+
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Profile Text 
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "describe yourself"
+      description: Tell others about yourself, your story, your expertise in some short words or several paragraphs.
+    validations:
+      required: true
+
+################## Contact ###################
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Contact 
+        
+        How and where do you want to be contacted? Fill in your contact details, and leave the fields blank that you don't use. 
+        **Please be aware that this information will be publicly visible on the internet! Just fill in those fields that you are okay with to be public.**
+        We'd kindly ask to give at least one contact option. 
+
+  - type: input
+    id: email
+    attributes:
+      label: E-Mail
+      placeholder: "your E-Mail address"
+    validations:
+      required: false
+  - type: input
+    id: tel
+    attributes:
+      label: Phone
+      description: "**Important: If you input your phone number, it will be visible on your LEAD profile and therefore for everyone on the internet! Just enter your number if you are okay with that,** otherwise leave the field empty."
+      placeholder: "your phone number, e.g. +254 12 345 6789"
+    validations:
+      required: false
+  - type: input
+    id: whatsapp
+    attributes:
+      label: WhatsApp
+      description: "**Important: If you input your phone number, it will be visible on your LEAD profile and therefore for everyone on the internet! Just enter your number if you are okay with that,** otherwise leave the field empty."
+      placeholder: "your whatsapp phone number, e.g. +254 12 345 6789"
+    validations:
+      required: false
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      placeholder: "your homepage, e.g. https://www.yourwebsite.com"
+    validations:
+      required: false
+  - type: input
+    id: telegram
+    attributes:
+      label: Telegram
+      placeholder: "your telegram username"
+    validations:
+      required: false
+  - type: input
+    id: github
+    attributes:
+      label: GitHub
+      placeholder: "your github username"
+    validations:
+      required: false
+  - type: input
+    id: liknedin
+    attributes:
+      label: LinkedIn
+      placeholder: "URL to your LinkedIn Profile"
+    validations:
+      required: false
+  - type: input
+    id: twitter
+    attributes:
+      label: Twitter
+      placeholder: "your twitter username"
+    validations:
+      required: false
+  - type: input
+    id: facebook
+    attributes:
+      label: Facebook
+      placeholder: "your facebook username"
+    validations:
+      required: false
+  - type: input
+    id: instagram
+    attributes:
+      label: Instagram
+      placeholder: "your instagram username"
+    validations:
+      required: false
+  - type: input
+    id: mastodon
+    attributes:
+      label: Mastodon
+      placeholder: "your mastodon profile link"
+    validations:
+      required: false
+  - type: input
+    id: wikifab
+    attributes:
+      label: WikiFab
+      placeholder: "your wikifab username"
+    validations:
+      required: false
