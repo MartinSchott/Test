@@ -84,7 +84,7 @@ body:
   - type: input
     id: skill1t
     attributes:
-      label: Skill
+      label: Skill 1
       placeholder: "Which skill?"
       description: 
     validations:
@@ -109,7 +109,7 @@ body:
   - type: input
     id: skill2t
     attributes:
-      label: Skill
+      label: Skill 2
       placeholder: "Which skill?"
     validations:
       required: false
@@ -125,7 +125,7 @@ body:
   - type: input
     id: skill3t
     attributes:
-      label: Skill
+      label: Skill 3
       placeholder: "Which skill?"
     validations:
       required: false
@@ -141,7 +141,7 @@ body:
   - type: input
     id: skill4t
     attributes:
-      label: Skill
+      label: Skill 4
       placeholder: "Which skill?"
     validations:
       required: false
