@@ -1,7 +1,7 @@
 ---
 name: Martin
-country: Deutschland
+country: Germany
 region: Berlin
 hub: H18
 ---
-Ich bin Martin, und bin proofi in Mediation
+Ich bin Martin, und bin Profi in Mediation
