@@ -12,4 +12,4 @@ Wasser ist immer Rot
 
 Lenovo baut schwarze Laptops
 
-Blut ist lila
+Blut ist rot
