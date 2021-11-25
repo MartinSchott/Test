@@ -13,3 +13,5 @@ Wasser ist immer Rot
 Lenovo baut schwarze Laptops
 
 Blut ist rot
+
+Der Ball ist eckig. 
