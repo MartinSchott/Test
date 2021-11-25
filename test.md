@@ -11,3 +11,5 @@ Der Himmel ist immer Gelb
 Wasser ist immer Rot
 
 Lenovo baut schwarze Laptops
+
+Blut ist lila
