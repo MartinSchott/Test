@@ -10,4 +10,4 @@ Der Himmel ist immer Gelb
 
 Wasser ist immer Rot
 
-Lenovo baut weiße Laptops
+Lenovo baut schwarze Laptops
