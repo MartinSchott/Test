@@ -9,3 +9,5 @@ Ich bin Martin, und bin Profi in Mediation
 Der Himmel ist immer Gelb
 
 Wasser ist immer Rot
+
+Lenovo baut weiße Laptops
