@@ -1,6 +1,6 @@
-name: Update Profile
+name: Update Skills
 description: 'actualize an existing profile (Skills, Languages)'
-title: "Update Profile for ..."
+title: "Update Skills for ..."
 labels: [Profile]
 body:
   - type: markdown
@@ -133,6 +133,13 @@ body:
     attributes:
       label: LinkedIn
       placeholder: "URL to your LinkedIn Profile"
+    validations:
+      required: false
+  - type: input
+    id: other
+    attributes:
+      label: Other
+      description: "If you prefer another way of being contacted, you can state it here. "
     validations:
       required: false
 
