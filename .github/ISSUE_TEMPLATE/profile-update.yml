@@ -1,5 +1,5 @@
 name: Add New Profile
-description: actualize an existing profile (Skills, Languages)
+description: 'actualize an existing profile (Skills, Languages)'
 title: "Update Profile for ..."
 labels: [Profile]
 body:
