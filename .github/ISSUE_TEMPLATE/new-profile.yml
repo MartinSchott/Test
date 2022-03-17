@@ -31,7 +31,7 @@ body:
       description: "In which country are you active?"
       placeholder: "e.g. South Sudan"
     validations:
-      required: false
+      required: true
       
   - type: input
     id: region
@@ -40,7 +40,7 @@ body:
       description: "In which region are you active? You can add several regions or cities by separating them with commas."
       placeholder: "e.g. Juba, Rhino-Camp, Berlin"
     validations:
-      required: false
+      required: true
 
   - type: input
     id: hub
@@ -69,22 +69,31 @@ body:
         What are your skills? Please just fill out your four main skills (or less). You can mention more in your profile text below. 
         
         Examples: 
-        - **Web** — e.g. research, using platforms, basic social media experience
-        - **Software** — e.g. installing and using different programs, basic coding skills
-        - **Hardware** — e.g. experience with electronic and/or mechanical devices and hardware
-        - **Community** — e.g. community building, connecting people, activism, trauma healing, gender equality awareness
-        - **Organizational Development** — e.g. entrepreneurship, project management, leading associations, financial literacy etc.
-        - **Media & Art** — e.g. audio/video/graphics skills, poetry, music
-        - **Data Security** — e.g. privacy, encryption, protection of personal data
-        - **Open Source** — e.g. git, open source philosophy, open source licenses
-        - **Repair** — e.g. managing repair cafes, skills on how to fix bikes, electronics etc.
+        - **Web & Software** — e.g. research, using platforms, basic social media experience, installing and using programs, basic coding skills
+        - **Hardware & Repair** — e.g. experience with electronics or mechanical devices, managing repair cafes, how to fix anything
+        - **Community & Moderation** — e.g. connecting people, event facilitation, activism, trauma healing, gender equality awareness, mediation
+        - **Organizational Development** — e.g. entrepreneurship, project management, leading associations, financial literacy
+        - **Media & Art** — e.g. audio/video/graphics skills, poetry, music, podcasts, design, STEAM
+        - **Data Security & Research** — e.g. data analysis, data sovereignty, privacy, encryption, protection of personal data
+        - **Open Source & Knowledge** — e.g. git, open source philosophy, open source licenses, open access, knowledge sharing
+        - **Sustainability & Environment** — e.g. SDGs, circular economy, environmental protection, upcycling & recycling
+        - **Production & Supply** — e.g. agriculture, animal farming, (re)producing goods and market-items, manufacturing business/service, logistics and physical goods management
 
-  - type: input
-    id: skill1t
+  - type: dropdown
     attributes:
       label: Skill 1
-      placeholder: "Which skill?"
       description: 
+      multiple: false
+      options: 
+        - Web & Software
+        - Hardware & Repair
+        - Community & Moderation
+        - Organizational Development
+        - Media & Art
+        - Data Security & Research
+        - Open Source & Knowledge
+        - Sustainability & Environment
+        - Production & Supply
     validations:
       required: false
 
@@ -222,7 +231,7 @@ body:
     validations:
       required: false
   - type: input
-    id: liknedin
+    id: linkedin
     attributes:
       label: LinkedIn
       placeholder: "URL to your LinkedIn Profile"
@@ -270,16 +279,6 @@ body:
       description: "If you prefer another way of being contacted, you can state it here. "
     validations:
       required: false
-
-  - type: checkboxes
-    id: operating-systems
-    attributes:
-      label: Which operating systems have you used?
-      description: You may select more than one.
-      options:
-        - label: macOS
-        - label: Windows
-        - label: Linux
 
   - type: markdown
     attributes:
