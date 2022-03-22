@@ -33,15 +33,16 @@ body:
     validations:
       required: true
       
-  - type: dropdown
+  - type: input
+    id: region
     attributes:
       label: Region
-      description: "In which region are you active? You can add several regions or cities by separating them with commas."
-      multiple: false
-      options: 
-        - Brandenburg
-        - Buxtehude
-        - Texas
+      description: |
+        In which region are you active?
+
+        **Regions in Uganda:** (choose one from the list)
+        West Nile, Acholi, Karamoja, Western, Lango, Teso, Elgon, South Western, Central, East Central
+      placeholder: "e.g. West Nile"
     validations:
       required: true
 
